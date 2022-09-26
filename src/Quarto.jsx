@@ -1,9 +1,9 @@
 import { useContext } from "react"
-import { userContext } from "./Primeiro"
+import { primeiroStateComponent } from "./Context" 
 
 export const Quarto = () => {
 
-    const primeiroCont = useContext(userContext)
+    const primeiroCont = useContext(primeiroStateComponent)
 
     return (
         <div>
